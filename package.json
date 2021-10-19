@@ -1,0 +1,24 @@
+{
+  "name": "solid-store",
+  "version": "0.0.1",
+  "description": "A reactive store for solid-js",
+  "main": "src/index.ts",
+  "scripts": {
+    "fix": "prettier --write .",
+    "test": "jest"
+  },
+  "author": "Sagar Poudel",
+  "license": "MIT",
+  "dependencies": {
+    "solid-js": "^1.1.6"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/dlv": "^1.1.2",
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  }
+}
